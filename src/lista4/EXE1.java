@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class EXE1 {
 
-public static double menor (double a, double b, double c){
+    static double menor (double a, double b, double c){
     if (a<b && a<c){
         return a;
     } else if (b<a && b<c){

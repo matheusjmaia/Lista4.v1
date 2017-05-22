@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 public class EXE2 {
     
-    public static double somatoria (double n){
+        static double somatoria (double n){
         double soma = 0;
         for (int i=1;i<=n;i++){
             soma = soma + i;

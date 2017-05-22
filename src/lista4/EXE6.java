@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class EXE6 {
     
-    public static double bhaskaramod (double a, double b, double c, double d){
+    static double bhaskaramod (double a, double b, double c, double d){
         double delta = ((b*b) - ((4*a)*c));
         if (delta > 0){
            double delta2 = Math.sqrt(delta);

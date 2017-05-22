@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class EXEC10 {
     
-    public static String categoria (int idade){
+        static String categoria (int idade){
         if (idade >=5 && idade <= 7){
             return "Infantil A";
         } else if (idade >=8 && idade <=10){

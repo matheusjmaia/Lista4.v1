@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class EXE4 {
     
-    public static double divisao (double n1, double n2){
+    static double divisao (double n1, double n2){
         return n1/n2;
     }
     

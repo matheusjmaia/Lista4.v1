@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class EXE5 {
     
-    public static double bhaskara (double a, double b, double c){
+    static double bhaskara (double a, double b, double c){
         double delta = ((b*b) - ((4*a)*c));
         if (delta > 0){
            double delta2 = Math.sqrt(delta);

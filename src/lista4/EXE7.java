@@ -12,7 +12,7 @@ import java.util.Scanner;
  * @author matheus.jmaia
  */
 public class EXE7 {
-    public static double volume (double r){
+    static double volume (double r){
         return ((4/3) * 3.141592 * (r*r*r));}
      
     public static void main(String[] args) {

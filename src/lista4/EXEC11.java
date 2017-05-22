@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class EXEC11 {
     
-    public static String conceito (double nota){
+        static String conceito (double nota){
         if (nota >=0.0 && nota <= 4.9){
             return "Conceito D";
         } else if (nota >=5.0 && nota <= 6.9){

@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class EXEC12 {
     
-    public static double pesoIdeal (double alt, String sexo){
+    static double pesoIdeal (double alt, String sexo){
         
         if (sexo.equalsIgnoreCase("f")){
             return ((62.1 * alt)- 44.7);

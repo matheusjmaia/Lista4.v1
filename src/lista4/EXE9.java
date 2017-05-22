@@ -15,7 +15,7 @@ import java.util.Scanner;
  */
 public class EXE9 {
     
-    public static int converter (int a,int m, int d){
+        static int converter (int a,int m, int d){
         int anos = a*365;
         int mes = m*30;
         return anos+mes+d;

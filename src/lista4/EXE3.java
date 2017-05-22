@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class EXE3 {
     
-    public static double fatorial (double n){
+        static double fatorial (double n){
         double soma = 1;
         for (int i=1;i<=n;i++){
             soma = soma * i;
