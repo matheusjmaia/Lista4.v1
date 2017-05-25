@@ -1,9 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package lista4;
+
+import java.util.Scanner;
 
 /**
  *
@@ -11,4 +9,22 @@ package lista4;
  */
 public class EXE8 {
     
+    static boolean primo (int n){
+        boolean primo = false;
+        if(n%2==0){
+            primo = false;
+        }else {
+            primo = true;
+        }
+        return primo;
+    }
+        
+    public static void main(String[] args) {
+        Scanner console = new Scanner (System.in);
+        System.out.print("Insira um número: ");
+        int n = console.nextInt();
+        boolean primo = primo(n);
+        System.out.println(primo);
+    }
+ 
 }
